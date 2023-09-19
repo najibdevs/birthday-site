@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  background: linear-gradient(#a2d2ff, #efb0c9);
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
+}
+
+.goat-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #efb0c9;
+}
+
+.age,
+.date {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.date {
+  margin-top: -5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 20px;
+}
+
+.gift-cover {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background: url(images/gift-cover.webp);
+  background-size: cover;
+  background-position: center;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+
+#gift-img-happy:hover {
+  background: url(images/happy.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+#gift-img-respect:hover {
+  background: url(images/respect.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+#gift-img-describe:hover {
+  background: url(images/genius.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+#gift-img-goat:hover {
+  background: url(images/thegoat.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background: url(images/cheers.gif);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hover {
+  margin-top: -15px;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.footer a {
+  color: #ffffff;
+}
